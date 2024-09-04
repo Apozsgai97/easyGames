@@ -1,0 +1,23 @@
+body{
+    background-color: #AF7AC5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.container{
+    border: 5px solid white;
+    border-radius: 10%;
+    padding: 30px;
+    
+}
+
+#choices{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
