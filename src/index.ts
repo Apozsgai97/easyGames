@@ -19,13 +19,13 @@ function playTheChoice (choice: string) {
         result = "Computer got paper. You won!"
     };
 
+    let resultDiv = document.getElementById("result");
+
+    resultDiv.textContent = result;
+
 
 }
 
-
-document.getElementById("rock").addEventListener('click', () => {
-    gamerChoice = "rock";
-});
-document.getElementById("paper").addEventListener('click', () => {
-    gamerChoice = "paper";
-});
+document.getElementById("rock").addEventListener('click', () => playTheChoice("rock"));
+document.getElementById("paper").addEventListener('click', () => playTheChoice("paper"));
+document.getElementById("scissors").addEventListener('click', () => playTheChoice("scissors"));
